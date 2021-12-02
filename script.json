@@ -1,0 +1,1266 @@
+[ 
+    {
+        "Scene": "The group is in Kenny's truck, which sputters to a stop.",
+        "Options": []
+    },
+
+    {
+        "Scene": "Kenny: Well, this is as far as we're going.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: Then it's far enough.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Everyone gets out of the truck and walks down the street. Lee briefly stops in front of his family's pharmacy.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Duck: Look!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Duck points to what appears to be a person near a car in the distance. Kenny waves his arms to try to get their attention.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: Hey there! You friendly? Truck's run out of gas.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "The person looks up, revealing that it's actually a zombie eating a dead survivor.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: FUCK!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Many zombies start approaching the group, surrounding them.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Katjaa: We're TRAPPED!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Duck: WAAH!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "A zombie knocks Duck over and tries to attack him.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Duck: AHHH! NO! NO!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Someone shoots the zombie, who collapses on Duck. Duck, now covered in zombie blood, returns to the group and is hugged by his parents. The woman who saved Duck continues to shoot the zombies. Another survivor stands at the entrance of the pharmacy.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Glenn: RUN!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Carley fires a few more shots at the zombies and everyone runs into the building behind Glenn. He closes and padlocks the metal gate in front of the building and joins the others inside as zombies pound on the gate. Inside the pharmacy there are three additional survivors.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: We can't take risks like this!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Carley: And we can't just let people die, either.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: When I SAY \"that door stays shut no matter what\" I fucking MEAN it. We don't know who these people are; they could be dangerous!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Worse, they could've led 'em right to us!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Carley: Where the hell is your humanity?! They would've died out there!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Then we let 'em!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "We have kids.",
+                "Stats": {
+                    "Patience": 3,
+                    "Curiosity": 0, 
+                    "Honesty": 2,
+                    "Empathy": 4,
+                    "Decisiveness": 2,
+                    "Cynicism": 0
+                },
+                "Result": "Lee: We have kids with us.\n\nLarry: I see ONE little girl..."
+            },
+
+            {
+                "Option": "We're ok.",
+                "Stats": {
+                    "Patience": 4,
+                    "Curiosity": 0, 
+                    "Honesty": 3,
+                    "Empathy": 2,
+                    "Decisiveness": 0,
+                    "Cynicism": 0
+                },
+                "Result": "Lee: We're not dangerous; we're just regular folks.\n\nLilly: What's DANGEROUS is a bunch of people running outside and drawing their attention to us.\n\nKenny: Lee's right. We're just regular folks, but WE actually like helping people."
+            },
+
+            { 
+                "Option": "Chill out, lady.",
+                "Stats": {
+                    "Patience": -5,
+                    "Curiosity": 0, 
+                    "Honesty": 3,
+                    "Empathy": -3,
+                    "Decisiveness": 2,
+                    "Cynicism": 3
+                },
+                "Result": "Lee: Whoa, chill the fuck out, lady. We're just people trying to avoid those things, just like you.\n\nLilly: Don't come in here and swear at me!\n\nLee: I'll say whatever I want if you start threatening these people."
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": 0,
+                    "Decisiveness": -4,
+                    "Cynicism": 0
+                },
+                "Result": "Lilly: We can't trust anybody. We already know that.\n\nLilly: The hell he, or ANYONE will. This is about survival, do you guys not see what's happening?"
+            }
+
+        ] 
+    },
+
+    {
+        "Scene": "Carley: You'll have to excuse her.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Clementine holds Lee's hand and looks up at him.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: What is it?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Clementine: I...I have to pee.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Glenn: I'd go out there again in a second.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: I bet you would. You're a dumb, careless kid.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Carley: I would too!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "In a minute.",
+                "Stats": {
+                    "Patience": 3,
+                    "Curiosity": 0, 
+                    "Honesty": 0,
+                    "Empathy": -2,
+                    "Decisiveness": -2,
+                    "Cynicism": 0
+                },
+                "Result": "Lee: In a minute, Clem."
+            },
+
+            { 
+                "Option": "Just go.",
+                "Stats": {
+                    "Patience": -1,
+                    "Curiosity": 0, 
+                    "Honesty": 0,
+                    "Empathy": 2,
+                    "Decisiveness": 4,
+                    "Cynicism": 0
+                },
+                "Result": "Lee: Then just go."
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": -3,
+                    "Decisiveness": -4,
+                    "Cynicism": 0
+                },
+                "Result": "Lee says nothing."
+            }
+        ]
+    },
+
+    {
+        "Scene": "Clementine lets go of Lee's hand.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Glenn: They've got kids, Lilly.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: Those things outside don't care.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: Maybe you should go join 'em, then. You'll have something in common!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Goddamn it, Lilly, you have to control these people!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: Carley and Glenn just ran out there!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: I don't give a flying fuck! We're in a warzone!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "In the background, Clementine approaches the bathroom.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "She's an asshole.",
+                "Stats": {
+                    "Patience": -4,
+                    "Curiosity": 0, 
+                    "Honesty": 3,
+                    "Empathy": -3,
+                    "Decisiveness": 4,
+                    "Cynicism": 5
+                },
+                "Result": "Lee: She's an asshole, that's for sure."
+            },
+
+            {
+                "Option": "She's not wrong.",
+                "Stats": {
+                    "Patience": 3,
+                    "Curiosity": 2, 
+                    "Honesty": 4,
+                    "Empathy": 3,
+                    "Decisiveness": 2,
+                    "Cynicism": -1
+                },
+                "Result": "Lee: She's not wrong. They took a risk.\n\nLilly: Yes, we did.\n\nLee: And we appreciate it. Now let's settle down."
+            },
+
+            {
+                "Option": "She's the leader.",
+                "Stats": {
+                    "Patience": -2,
+                    "Curiosity": -2, 
+                    "Honesty": 4,
+                    "Empathy": -2,
+                    "Decisiveness": 4,
+                    "Cynicism": 3
+                },
+                "Result": "Lee: She's the leader here. But it looks like she's losing control of her people."
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": 0,
+                    "Decisiveness": -2,
+                    "Cynicism": 0
+                },
+                "Result": "Kenny: Lee, can you believe this lady?\n\nLarry: That lady's my daughter.\n\nKenny: I can see the resemblance. My son won't grow up to be a raging fucking lunatic, that's for certain.\n\nLarry: Son?"
+            }
+        ]
+    },
+
+    {
+        "Scene": "Larry: Ho-ly SHIT.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry looks behind him. Duck is sitting on one of the chairs near the bar and Katjaa is attending to him.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Son of a bitch, one of them is bitten!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "He wasn't bitten.",
+                "Stats": {
+                    "Patience": 3,
+                    "Curiosity": -2, 
+                    "Honesty": 3,
+                    "Empathy": 3,
+                    "Decisiveness": 5,
+                    "Cynicism": -2
+                },
+                "Result": "Lee: He wasn't bitten.\n\nLarry: Hell he wasn't!"
+            },
+
+            {
+                "Option": "Oh shit.",
+                "Stats": {
+                    "Patience": -2,
+                    "Curiosity": 3, 
+                    "Honesty": 4,
+                    "Empathy": -2,
+                    "Decisiveness": 3,
+                    "Cynicism": 4
+                },
+                "Result": "Lee: Shit.\n\nLarry: We let one in, you stupid shits!"
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": -2,
+                    "Decisiveness": -2,
+                    "Cynicism": 0
+                },
+                "Result": "Lee says nothing."
+            }
+        ]
+    },
+
+    {
+        "Scene": "Larry: We have to end this, now.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry walks over to Duck but Kenny stands in front of him, blocking his way.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: Over my dead body.",
+        "Options": [] 
+    },
+    
+    {
+        "Scene": "Larry: We'll dig one hole.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Katjaa: No! I'm cleaning him up! There's no bite! He's fine!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Katjaa hurriedly tries to wipe away the blood on Duck, searching for a bite.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Don't you fucking people get it? We've already SEEN this happen. We let someone with a bite stay and--and WE all end up bitten!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: Shut up.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: We gotta throw him out! Or smash his head in!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Katjaa: KENNY! STOP HIM!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: Lee, what do we do about this guy?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: Dad, it's just a boy, it's--",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Lilly, I'll handle this.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: But your heart, Dad. You need to calm down. We'll get this kid out of here.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "It's him or Duck.",
+                "Stats": {
+                    "Patience": -4,
+                    "Curiosity": 2, 
+                    "Honesty": 3,
+                    "Empathy": -2,
+                    "Decisiveness": 5,
+                    "Cynicism": 3
+                },
+                "Result": "Lee: It's either him or your son. I say it's him.\n\nLee crosses his arms.\n\nKenny will remember your loyalty.\n\nKenny: Goddamn right; out on HIS ass with those THINGS."
+            },
+
+            {
+                "Option": "Reason with him.",
+                "Stats": {
+                    "Patience": 4,
+                    "Curiosity": 1, 
+                    "Honesty": 2,
+                    "Empathy": 3,
+                    "Decisiveness": 2,
+                    "Cynicism": -2
+                },
+                "Result": "Lee: We reason with him.\n\nLee crosses his arms.\n\nYou didn't side with Kenny.\n\nKenny: With the bloody end of an axe-handle, maybe! Nobody threatens my boy."
+            },
+
+            {
+                "Option": "Kick his ass.",
+                "Stats": {
+                    "Patience": -5,
+                    "Curiosity": 0, 
+                    "Honesty": 4,
+                    "Empathy": -3,
+                    "Decisiveness": 5,
+                    "Cynicism": 4
+                },
+                "Result": "Lee: We kick his ass.\n\nLee crosses his arms.\n\nKenny will remember your loyalty.\n\nKenny: That's what I'm thinking."
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": -2,
+                    "Decisiveness": -3,
+                    "Cynicism": 0
+                },
+                "Result": "Kenny: With or without you, I'm protecting my kid with my LIFE."
+            }
+
+        ]
+    },
+
+    {
+        "Scene": "Carley: Everyone CHILL THE FUCK OUT!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: Nobody is doing ANYTHING.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Shut up, Lilly! (turns to Carley) And YOU. Shut the fuck up. (turns back to the group) They will find us and they will get in here, and none of this will fucking matter. But right now we're about to be TRAPPED in here with one of those things.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: What the hell are you talkin' about?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: He's bitten! That's how you TURN.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Katjaa: He's not bitten! Lee, stop this! It's upsetting him!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Oh, I'm \"upsetting\" him? Upsetting is getting eaten alive!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: Dad, we get it, it's a big deal.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Do you? You're not fucking acting like it!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "It's his SON.",
+                "Stats": {
+                    "Patience": -4,
+                    "Curiosity": 0, 
+                    "Honesty": 3,
+                    "Empathy": 4,
+                    "Decisiveness": 0,
+                    "Cynicism": 0
+                },
+                "Result": "Lee: It's Larry, right? Man, this is his son.\n\nLarry: Look around, dumbass. I got a daughter in here, YOU got a daughter in here. Get your head out of your ass, boy.\n\nLee: We've all got people in here and we can figure this out without killing anybody. There's another way.\n\nLarry: Yeah, with a shovel."
+            },
+            
+            {
+                "Option": "If it was your girl?",
+                "Stats": {
+                    "Patience": 1,
+                    "Curiosity": 5, 
+                    "Honesty": 3,
+                    "Empathy": 4,
+                    "Decisiveness": 1,
+                    "Cynicism": 1
+                },
+                "Result": "Lee: What if this was your daughter?\n\nLarry: NEVER woulda happened. She's not some snot-nosed toddler, okay? She's United States Air Force.\n\nKenny: Oh, fuck you AND her!"
+            },
+
+            {
+                "Option": "Sit down, or else.",
+                "Stats": {
+                    "Patience": -4,
+                    "Curiosity": 2, 
+                    "Honesty": 3,
+                    "Empathy": -3,
+                    "Decisiveness": 5,
+                    "Cynicism": 3
+                },
+                "Result": "Lee: Sit down, or that's IT.\n\nLarry: You gonna whoop me? You and what homo parade?\n\nKenny: This one.\n\nLarry: HA, that's good! Little boy! Before you EAT your mommy, you can watch your dad get his nose broken."
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": -2,
+                    "Decisiveness": -2,
+                    "Cynicism": 0
+                },
+                "Result": "Lee says nothing."
+            }
+        ]
+    },
+
+    {
+        "Scene": "Kenny: I'm gonna kill him, KAT. Just worry about Duck!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Clementine: Lee?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Clementine stands in front of the bathroom door.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: Yeah?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Clementine: There's someone in there.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: It's just locked. Key's behind the counter. Probably.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Hey, I'm not the bad guy here, I'm just looking out for my daughter!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: No, you're just the guy arguing for killing a kid!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: He's covered in muck! She'll find the bite. WATCH.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: She won't.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: And if she DOES? The first thing he'll do is sink his teeth into his mom's face. Then once she's dead, he'll probably pounce on YOUR little girl! She'll turn fast and then they'll be three. And that, boy, is the ballgame.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "He's just a boy.",
+                "Stats": {
+                    "Patience": 3,
+                    "Curiosity": 0, 
+                    "Honesty": 2,
+                    "Empathy": 4,
+                    "Decisiveness": 1,
+                    "Cynicism": -2
+                },
+                "Result": "Lee: He's a little boy; I think we can handle him.\n\nLarry: A little boy?! He'll be an uncontrollable man-eater!\n\nKenny: It's not gonna happen!\n\nLarry: It is and we're tossing him out NOW!"
+            },
+
+            {
+                "Option": "Deal with it.",
+                "Stats": {
+                    "Patience": 5,
+                    "Curiosity": 1, 
+                    "Honesty": 3,
+                    "Empathy": 4,
+                    "Decisiveness": 5,
+                    "Cynicism": -4
+                },
+                "Result": "Lee: Then we deal with it then. But right now we're just freaking everybody out.\n\nKenny will remember your loyalty.\n\nLarry: Then get ready to deal with it because that boy is BITTEN.\n\nKenny: It's not gonna happen!\n\nLarry: It is and we're tossing him out NOW!"
+            },
+
+            {
+                "Option": "We do what you say.",
+                "Stats": {
+                    "Patience": -2,
+                    "Curiosity": -4, 
+                    "Honesty": 3,
+                    "Empathy": -3,
+                    "Decisiveness": 3,
+                    "Cynicism": 2
+                },
+                "Result": "Lee: Then we do what you say. We toss him out and save the group.\n\nYou didn't side with Kenny.\n\nKenny: Lee?! What the fuck, man?\n\nLee: What other choice is there?\n\nLarry: FINALLY. Someone gets some sense. But we can't wait--we are tossing him out NOW!"
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": 0,
+                    "Decisiveness": -2,
+                    "Cynicism": 0
+                },
+                "Result": "Larry: Which pretty much seals the deal for me. We're throwin' him out!"
+            }
+        ]
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "Hit him, Kenny. [Stop him]",
+                "Stats": {
+                    "Patience": -4,
+                    "Curiosity": 0, 
+                    "Honesty": 0,
+                    "Empathy": -4,
+                    "Decisiveness": 5,
+                    "Cynicism": 2
+                },
+                "Result": "Lee: Knock this guy out.\n\nKenny: Happily.\n\nKenny will remember your loyalty.\n\nKenny punches Larry.\n\nLarry: Ahh!\n\nLilly: JESUS!\n\nLarry punches Kenny and he falls to the ground.\n\nKenny: Ahh!\n\nGlenn: Oh, man."
+            },
+
+            {
+                "Option": "NO! [Stop him.]",
+                "Stats": {
+                    "Patience": -5,
+                    "Curiosity": 0, 
+                    "Honesty": 0,
+                    "Empathy": 1,
+                    "Decisiveness": 5,
+                    "Cynicism": 2
+                },
+                "Result": "Lee: (angrily, shouting) NO! You don't touch that boy, you don't TOUCH anybody!\n\nKenny will remember your loyalty.\n\nLee: (angrily, shouting) I've got a little girl I'm trying to protect in here too. You want to get violent, you old fuck?! Well, COME ON. You better have a plan to kill me, though, because it's ME before anyone else in here!"
+            },
+
+            {
+                "Option": "I'm sorry, Kenny. [Let him.]",
+                "Stats": {
+                    "Patience": -1,
+                    "Curiosity": 0, 
+                    "Honesty": 4,
+                    "Empathy": 2,
+                    "Decisiveness": 3,
+                    "Cynicism": 0
+                },
+                "Result": "Lee: I'm sorry, Kenny. He's right. This is about survival.\n\nYou didn't side with Kenny.\n\nKenny: LEE?! This is my boy, Lee! My boy! We can't!\n\nKatjaa: No, he's not bitten! Look! Look, he's clean! Not a scratch!\n\nKenny: Not a goddamn scratch, what do you think about that...\n\nLarry: It's Larry. And I'm fucking sorry.\n\nKenny: Good.\n\nLilly: Look, we're fish in a barrel here. With all the commotion we could be under siege any minute.\n\nKenny: Then we better start fortifying this place. I'll work on getting that window barricaded.\n\nLilly: Good. Dad, sit down.\n\nLarry: I'm FINE, Lilly.\n\nLilly: Dad...please.\n\nLarry: Alright."
+            },
+
+            {
+                "Option": "You're right. [Let him.]",
+                "Stats": {
+                    "Patience": 2,
+                    "Curiosity": -1, 
+                    "Honesty": 4,
+                    "Empathy": -2,
+                    "Decisiveness": 4,
+                    "Cynicism": 3
+                },
+                "Result": "Lee: You're right, man. That boy is a time bomb.\n\nYou didn't side with Kenny.\n\nLarry: Then it's settled.\n\nKenny: LEE?! This is my boy, Lee! My boy! We can't!\n\nLee: I'm sorry, Kenny. He's right. This is about survival.\n\nKatjaa: No, he's not bitten! Look! Look, he's clean! Not a scratch!\n\nKenny: Not a goddamn scratch, what do you think about that...\n\nLarry: It's Larry. And I'm fucking sorry.\n\nKenny: Good.\n\nLilly: Look, we're fish in a barrel here. With all the commotion we could be under siege any minute.\n\nKenny: Then we better start fortifying this place. I'll work on getting that window barricaded.\n\nLilly: Good. Dad, sit down.\n\nLarry: I'm FINE, Lilly.\n\nLilly: Dad...please.\n\nLarry: Alright."
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": -2,
+                    "Decisiveness": -5,
+                    "Cynicism": 0
+                },
+                "Result": "Katjaa: No, he's not bitten! Look! Look, he's clean! Not a scratch!\n\nYou didn't side with Kenny.\n\nKenny: Not a goddamn scratch, what do you think about that...\n\nLarry: It's Larry. And I'm fucking sorry.\n\nKenny: Good."
+            }
+
+        ]
+    },
+
+    {
+        "Scene": "Clementine screams as the bathroom door opens and a zombie emerges from it, trying to attack her.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: Jesus!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: CLEMENTINE!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee tries to run over to her, but bumps into Lilly and falls to the ground, hitting his head. His vision is blurry, but he can vaguely see the zombie grabbing Clementine.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "Rescue Clementine",
+                "Stats": {
+                    "Patience": -2,
+                    "Curiosity": 0, 
+                    "Honesty": 0,
+                    "Empathy": 5,
+                    "Decisiveness": 5,
+                    "Cynicism": -2
+                },
+                "Result": "Lee gets up and runs over to Clementine, pulling the zombie away from her.\n\nLee: Get away from her, you son of a bitch!\n\nThe zombie gets up and attacks Lee, and he tries to push it away.\n\nLee: Ah, god, get...off...ugh...\n\nThe zombie gets shot and falls to the floor.\n\nLee: Man...\n\nCarley lowers her gun.\n\nCarley: You okay?\n\nLee: Just great, thanks.\n\nClem will remember you protected her."
+            },
+
+            {
+                "Option": "Do nothing",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": -5,
+                    "Decisiveness": -5,
+                    "Cynicism": 5
+                },
+                "Result": "Clementine: NO! LEE, HELP!\n\nClementine covers her ears as the zombie is shot. Carley lowers her gun.\n\nClementine will remember you didn't save her."
+            }
+        ]
+    },
+
+    {
+        "Scene": "Glenn: Uh...guys?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Zombies growl and pound on the door.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: (whispering) Everybody DOWN! Stay QUIET!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny and his family huddle together, Clementine hides behind Lee, and everyone else kneels down behind the shelves.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: (whispering) They're gonna get in!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: (whispering) SHUT UP.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Noises and gunfire is heard outside.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: Is that the military?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: I don't know.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Glenn: Thank god for whatever it is.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry gets up and marches across the room. Everyone leaves their hiding positions.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: We almost DIED because of this bitch and her itchy trigger finger! That was stupid! That was--",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry groans and grabs his chest, falling to the floor.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: DAD!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: (whispering) Shit. Fuck.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly runs over to Larry, who is lying on his side on the floor.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "What's wrong with him?",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": 5, 
+                    "Honesty": 3,
+                    "Empathy": 3,
+                    "Decisiveness": 0,
+                    "Cynicism": 1
+                },
+                "Result": "Lee: What's wrong with him?!"
+            },
+
+            {
+                "Option": "Was HE the one bitten?!",
+                "Stats": {
+                    "Patience": -2,
+                    "Curiosity": 5, 
+                    "Honesty": 2,
+                    "Empathy": -2,
+                    "Decisiveness": 0,
+                    "Cynicism": 4
+                },
+                "Result": "Lee: Was HE the one bitten?!\n\nLilly: NO. Don't be crazy!"
+            },
+
+            {
+                "Option": "I told him to calm down…",
+                "Stats": {
+                    "Patience": -3,
+                    "Curiosity": -4, 
+                    "Honesty": 0,
+                    "Empathy": -5,
+                    "Decisiveness": 0,
+                    "Cynicism": 4
+                },
+                "Result": "Lee: I did try to get him to calm down…\n\nLilly: Can it, asshole!"
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": -3,
+                    "Decisiveness": -2,
+                    "Cynicism": 0
+                },
+                "Result": "Lee says nothing."
+            }
+        ]
+    },
+
+    {
+        "Scene": "Lilly: It's his heart!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Larry: My pills...",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Katjaa: Uh--um... Nitroglycerin pills?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly stands up.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: YES. We're out. We've been trying to get into the pharmacy since we got here! Please, try to get in there! Behind the counter, where the pills are!",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "Through the office.",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": 4, 
+                    "Honesty": 1,
+                    "Empathy": 4,
+                    "Decisiveness": 5,
+                    "Cynicism": -3
+                },
+                "Result": "Lee: There's probably another entrance. Maybe through the office.\n\nCarley: How do you know that's an office?\n\nLee: Educated guess.\n\nLilly: It doesn't matter. We need nitroglycerin pills. Please get in there. I'll keep an eye on my dad."
+            },
+
+            {
+                "Option": "We'll do it somehow.",
+                "Stats": {
+                    "Patience": -2,
+                    "Curiosity": 3, 
+                    "Honesty": -1,
+                    "Empathy": 5,
+                    "Decisiveness": 5,
+                    "Cynicism": -2
+                },
+                "Result": "Lee: We'll get in there somehow.\n\nLilly: Thank you so much. We need nitroglycerin pills. Please get in there. I'll keep an eye on my dad."
+            },
+
+            {
+                "Option": "Looking for?",
+                "Stats": {
+                    "Patience": 2,
+                    "Curiosity": 5, 
+                    "Honesty": 0,
+                    "Empathy": 2,
+                    "Decisiveness": -1,
+                    "Cynicism": 0
+                },
+                "Result": "Lee: What are we looking for?\n\nLilly: We need nitroglycerin pills. Please get in there. I'll keep an eye on my dad."
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": -2,
+                    "Decisiveness": -2,
+                    "Cynicism": 0
+                },
+                "Result": "Lee says nothing."
+            }
+        ]
+    },
+
+    {
+        "Scene": "Kenny: Everyone else should get comfy and look for anything useful. We could be in here a while.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Glenn: I'm starting to think this drugstore isn't a permanent solution.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: You're right, this ain't exactly Fort Knox.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: What do you suggest?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Glenn: We need as much gas as possible so we can ALL get out of downtown Macon. Fast.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: Agreed.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Glenn: Then I'll head out and get gas. There's a motel not too far from here, out towards the end of Peachtree. I'll work my way towards it and then loop back, siphoning what I can.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "...pick an option...",
+        "Options": [
+            {
+                "Option": "You're insane.",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 4,
+                    "Empathy": -2,
+                    "Decisiveness": -3,
+                    "Cynicism": 3
+                },
+                "Result": "Lee: You're insane.\n\nGlenn: Well, it's gotta get done. Plus, I'm quick and I know Macon.\n\nLee: Local?\n\nGlenn: Born and raised."
+            },
+
+            {
+                "Option": "That'd be great.",
+                "Stats": {
+                    "Patience": 2,
+                    "Curiosity": 0, 
+                    "Honesty": 4,
+                    "Empathy": 0,
+                    "Decisiveness": 2,
+                    "Cynicism": -3
+                },
+                "Result": "Lee: Damn, that'd be great.\n\nGlenn: Well, it's gotta get done. Plus, I'm quick and I know Macon.\n\nLee: Local?\n\nGlenn: Born and raised."
+            },
+
+            {
+                "Option": "You know your way around town?",
+                "Stats": {
+                    "Patience": 3,
+                    "Curiosity": 5, 
+                    "Honesty": 3,
+                    "Empathy": 0,
+                    "Decisiveness": -2,
+                    "Cynicism": 0
+                },
+                "Result": "Lee: You know your way around? Local?\n\nGlenn: Born and raised."
+            },
+
+            {
+                "Option": "...",
+                "Stats": {
+                    "Patience": 0,
+                    "Curiosity": -2, 
+                    "Honesty": 0,
+                    "Empathy": 0,
+                    "Decisiveness": -4,
+                    "Cynicism": 0
+                },
+                "Result": "Glenn: Alright, silence is consent. That's the plan."
+            }
+
+        ]
+    },
+    
+    {
+        "Scene": "Lee: If you're gonna do that, here's a walkie-talkie if you get in a tight spot. Hopefully you won't need it.",
+        "Options": [] 
+    },
+    
+    {
+        "Scene": "Lee gives his walkie-talkie to Glenn.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Glenn: Cool.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: Clementine's got the other one. Check in with her and get back here as soon as you can.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: And, you, what's your name?",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lilly: It's Lilly. My dad's Larry.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: Keep a good eye on him. These boys will work on getting you your medicine.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Lee: That's right.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: And you, you keep an eye on that front door. You're our lookout.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Doug: It's Doug, you got it.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Carley: And I'm Carley.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: Okay, Carley, you'll shift in with Doug when he needs it. For now, get some rest--you're a good shot and I'd like to keep it that way.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Carley: (nods) You got it, boss.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny: Now get him those pills.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "Kenny stands next to Katjaa and Duck. Lilly kneels next to Larry, who is now propped up on the shelves behind him. Doug looks out the window near the entrance. Carley works on a radio and Clementine sits on a cardboard box nearby, holding her radio.",
+        "Options": [] 
+    },
+
+    {
+        "Scene": "To be continued...",
+        "Options": [] 
+    }
+
+]
