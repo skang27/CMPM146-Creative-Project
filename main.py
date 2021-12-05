@@ -59,54 +59,57 @@ if __name__ == '__main__':
     with open(script_filename) as f:
         data = json.load(f)
 
-    for scene_dict in data:
-        options_list = scene_dict["Options"]
-        if len(options_list) == 0: #if there are no options, then it is just a scene
-            next_to_print = scene_dict["Scene"] 
-            print(next_to_print, "\n")
+    while True:
+        for scene_dict in data:
+            options_list = scene_dict["Options"]
+            if len(options_list) == 0: #if there are no options, then it is just a scene
+                next_to_print = scene_dict["Scene"] 
+                print(next_to_print, "\n")
 
-            #pause to let the player read the text printed by a period of time depending on how many words are in the string
-            time.sleep(len(next_to_print) / 25)
-        else:
-            # print("**options found**\n")
-            # TODO: Use utility functions to weigh each option (should have a dictionary with options).
-            #       Should also print selected option in this if statement.
-            ranked_opts = rank_options(scene_dict["Options"], npc_state)
+                #pause to let the player read the text printed by a period of time depending on how many words are in the string
+                time.sleep(len(next_to_print) / 25)
+            else:
+                # print("**options found**\n")
+                # TODO: Use utility functions to weigh each option (should have a dictionary with options).
+                #       Should also print selected option in this if statement.
+                ranked_opts = rank_options(scene_dict["Options"], npc_state)
 
-            for util, opt, index in ranked_opts:
-                print("Value:", util, "~ Option:", opt)
-                print("index:", index)
-        
-            print("")
+                for util, opt, index in ranked_opts:
+                    print("Value:", util, "~ Option:", opt)
+                    print("index:", index)
+            
+                print("")
 
-            #choose the top ranked option
-            print("NPC chose this option: ", ranked_opts[0][1])
-
-
-            print("")
+                #choose the top ranked option
+                print("NPC chose this option: ", ranked_opts[0][1])
 
 
+                print("")
 
-            # TODO: Figure out how we're going to set up options along with their trait values
-            #       Finalize state
-            #       Add player input and the part that changes state according to the player's input
-            print("How favorable is this action from -5 to 5? ", end = '')
-            favorability = input()
 
-            print("")
-            #after the player says how favorable the NPC's choice was, 
-            #print the rest of the script that follows the option the NPC chose
-            #get the index of the chosen from the original list index stored in the rank option function
-            next_to_print = options_list[ranked_opts[0][2]]["Result"] 
 
-            print(next_to_print)
+                # TODO: Figure out how we're going to set up options along with their trait values
+                #       Finalize state
+                #       Add player input and the part that changes state according to the player's input
+                print("How favorable is this action from -5 to 5? ", end = '')
+                favorability = input()
 
-            # if len(next_to_print) < 5:
-            #     time.sleep()
-            #pause to let the player read the text printed by a period of time depending on how many words are in the string
-            time.sleep(len(next_to_print) / 25)
+                print("")
+                #after the player says how favorable the NPC's choice was, 
+                #print the rest of the script that follows the option the NPC chose
+                #get the index of the chosen from the original list index stored in the rank option function
+                next_to_print = options_list[ranked_opts[0][2]]["Result"] 
 
-            print("")
+                print(next_to_print)
+
+                # if len(next_to_print) < 5:
+                #     time.sleep()
+                #pause to let the player read the text printed by a period of time depending on how many words are in the string
+                time.sleep(len(next_to_print) / 25)
+
+                print("")
+
+        input("To go back to the beginning of the script\nPress any key ")
 
         # time.sleep(1)
 
