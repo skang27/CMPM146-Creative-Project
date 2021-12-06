@@ -8,13 +8,7 @@ def utility(opt, state):
     value = 0
     index = 0
 
-    opt_traits = []
-    opt_traits.append(opt["Patience"])
-    opt_traits.append(opt["Curiosity"])
-    opt_traits.append(opt["Honesty"])
-    opt_traits.append(opt["Empathy"])
-    opt_traits.append(opt["Decisiveness"])
-    opt_traits.append(opt["Cynicism"])
+    opt_traits = create_opt_traits(opt)
 
     for trait in state:
         value += (trait * opt_traits[index])
@@ -23,11 +17,29 @@ def utility(opt, state):
     return value
 
 
-def change_state(state, value):
+def change_trait(state, value, opt_traits):
     for i in range(6):
-        state[i] += (value * state[i])
+        if value != 0:
+            state[i] += ((opt_traits[i]/value) * state[i])
+        if state[i] > 5:
+            state[i] = 5
+        elif state[i] < -5:
+            state[i] = -5
 
     return state
+
+
+def find_opt(options, to_find):
+    for opt in options:
+        if to_find == opt["Option"]:
+            return create_opt_traits(opt["Stats"])
+
+
+def create_opt_traits(opt):
+    opt_traits = [opt["Patience"], opt["Curiosity"], opt["Honesty"], opt["Empathy"], opt["Decisiveness"],
+                  opt["Cynicism"]]
+
+    return opt_traits
 
 
 # Rank options given a state
@@ -46,7 +58,7 @@ def rank_options(options, state):
 
 if __name__ == '__main__':
     # Possible traits for the NPC
-    npc_state = [1, 2, 3, 4, 5, 6]
+    npc_state = [2, 2, 2, 2, 2, 2]
 
     not_done = True
 
@@ -84,7 +96,8 @@ if __name__ == '__main__':
 
                 print("")
 
-                npc_state = change_state(npc_state, int(favorability))
+                opt = find_opt(scene_dict["Options"], ranked_opts[0][1])
+                npc_state = change_trait(npc_state, int(favorability), opt)
 
                 # after the player says how favorable the NPC's choice was,
                 # print the rest of the script that follows the option the NPC chose
@@ -100,4 +113,11 @@ if __name__ == '__main__':
 
         finish = input("Would you like to restart the script with the current traits? (Y/N) ")
         if finish == "N" or finish == "n":
+            print("\nHere are your NPC's traits:")
+            print("Patience:", round(npc_state[0],2))
+            print("Curiosity:", round(npc_state[1],2))
+            print("Honesty:", round(npc_state[2],2))
+            print("Empathy:", round(npc_state[3],2))
+            print("Decisiveness:", round(npc_state[4],2))
+            print("Cynicism:", round(npc_state[5],2))
             not_done = False
