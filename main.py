@@ -20,11 +20,11 @@ def utility(opt, state):
 def change_trait(state, value, opt_traits):
     for i in range(6):
         if value != 0:
-            state[i] += ((opt_traits[i]/value) * state[i])
-        if state[i] > 5:
-            state[i] = 5
-        elif state[i] < -5:
-            state[i] = -5
+            state[i] += opt_traits[i]/value
+            if state[i] > 5:
+                state[i] = 5
+            elif state[i] < -5:
+                state[i] = -5
 
     return state
 
