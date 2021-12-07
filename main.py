@@ -17,10 +17,20 @@ def utility(opt, state):
     return value
 
 
-def change_trait(state, value, opt_traits):
+def change_trait(state, value, opt_traits, has_autonomy):
     for i in range(6):
         if value != 0:
-            state[i] += opt_traits[i]/value
+            empathyVal = 0
+            cynicismVal = 0
+            if state[3] > 0:
+                empathyVal = state[3]
+            if state[5] > 0:
+                cynicismVal = state[5]
+            if has_autonomy == True:
+                # print("has autonomy")
+                state[i] += (opt_traits[i]/value) * (1 + ( (empathyVal - cynicismVal) / 5)) #use the empathy and cynicism traits
+            else:
+                state[i] += (opt_traits[i]/value)
             if state[i] > 5:
                 state[i] = 5
             elif state[i] < -5:
@@ -81,6 +91,12 @@ if __name__ == '__main__':
         data = json.load(f)
 
     while not is_done:
+        cynicalNPC = False
+        autonomy = input("\nWould you like the NPC to have some autonomy? (Y/N) ")
+
+        if autonomy == "Y" or autonomy == "y":
+            cynicalNPC = True
+
         print_traits(npc_state)
         for scene_dict in data:
             options_list = scene_dict["Options"]
@@ -92,7 +108,7 @@ if __name__ == '__main__':
 
                 for util, opt, index in ranked_opts:
                     print("Value:", round(util, 2), "~ Option:", opt)
-                    print("index:", index)
+                    # print("index:", index)
 
                 print("")
 
@@ -106,7 +122,7 @@ if __name__ == '__main__':
                 print("")
 
                 opt = find_opt(scene_dict["Options"], ranked_opts[0][1])
-                npc_state = change_trait(npc_state, int(favorability), opt)
+                npc_state = change_trait(npc_state, int(favorability), opt, cynicalNPC)
 
                 next_to_print = options_list[ranked_opts[0][2]]["Result"]
 
